@@ -1,0 +1,231 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(fonts/Proxima-Nova-Font/Proxima\ Nova\ Font.otf);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;;
+}
+
+section{
+    
+    display: flex;
+    justify-content:center;
+    
+
+    
+}
+.left-side img{
+    width: 188px;
+    margin-top: 40px;
+    margin-left: 82px;
+}
+.left-side{
+    width: 70%;
+    
+    height: 80vh;
+   
+}
+.left-side a{
+margin-left: 43vh;
+cursor: pointer;
+text-decoration: none;
+color: black;
+font-weight: bold;
+
+}
+.left-side h1{
+    font-size: 50px;
+    margin-left: 13vh;
+    margin-top: 70px;
+}
+.left-side h4{
+    font-size: 24px;
+    margin-left: 13vh;
+    margin-top: 30px;
+    color:#686b78
+}
+ .left-side  button{
+    margin-left: 50px;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+ }
+
+form input{
+    width: 67vh;
+    height: 50px;
+    margin-left: 13vh;
+    margin-top: 8vh;
+}
+form label{
+    background-color: #fc8019;
+    padding: 17px;
+    color: white;
+}
+.searchbar h3{
+    margin-left: 84px;
+    margin-top: 30px;
+    font-size: 15px;
+    color:#686b78
+}
+
+.right-side{
+  width: 50%;
+  
+}
+.right-side img{
+    width: 101%;
+    
+}
+
+
+.section-2{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: #2b1e16;
+    text-align: center;
+    color: white;
+    font-size: 9px;   
+    height: 57vh;                 
+    
+}
+
+.crd p{
+    font-size: 13px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;;
+}
+.crd img{
+    width: 48%;
+    margin-bottom: 30px;
+}
+.crd h1{
+    font-size: 20px;
+}
+
+.resturent{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 8px;
+}
+
+.resturent img{
+    width: 180px;
+    height: 54px;
+}
+
+.resturent .text{
+    margin-top: 140px;
+}
+
+.resturent .text h1{
+    font-size: 40px;
+}
+
+.resturent .text p{
+    margin-top: 11px;
+    color: #686b78;
+}
+.text img{
+    margin-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 150px;
+}
+
+li{
+    list-style: none;
+    line-height: 36px;
+}
+
+.lis1{
+    margin-right: 10%;
+    margin-top: 90px;
+}
+.footer h4{
+   margin-bottom: 30px;
+   color: #808080;
+}
+
+
+.lis2{
+    margin-right: 10%;
+    margin-top: 90px;
+  
+}
+.lis3{
+    margin-right: 10%;
+    margin-top: 90px;
+   
+}
+
+.iphone{
+    display: flex;
+}
+.iphone img{
+    width: 384px;
+    height: 489px;
+}
+
+.iphone .right{
+    margin-top: 80px;   
+}
+
+.playstore .img1{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.footer2 p{
+    font-size: 18px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-right: 0%;
+}
+
+.copyright img{
+    margin-left: 5%;
+    width: 145px;
+    size: 49px;
+}
+
+.social img{
+    margin-right: 20px;
+    margin-top: 40px;
+    padding-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+#hr{
+    width: 50%;
+}
+
+.left-side a:hover{
+    color: #fc8019;
+}
+
+
